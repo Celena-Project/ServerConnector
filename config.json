@@ -1,0 +1,95 @@
+{
+    "sharedConfig": {
+        "sharedServersEmbedsChannelId" : "748691780081287239",
+        "bot":{
+            "token": "NjcxNDQ5ODMyNjk0NDgwOTI2.Xi9GYw.g1zy_tzJmMK7WOyyzMnA14o8jJw",
+            "messageId": "893191808731983944"
+        }
+    },
+    "7777":{
+        "token": "NjcwMzY0NDc2NjY2NTQ0MTU5.XitTkg.hdGEkM91-YKFWAAxPIiB1WMWgKw",
+        "channels": {
+            "0": "838121747232325672",
+            "1": "838121859287089203",
+            "2": "838121885166338089"
+        },
+        "embedMessageId" : "871504716260053032",
+        "serverType": "scp",
+        "inactive": false
+    },
+    "7778":{
+        "token": "NjcwMzY0NDk2ODg3NTQ1ODc3.XitTlg.TW9V1TTvinD6LCdfHjpTQDe4Aqw",
+        "channels": {
+            "0": "879071316341305375",
+            "1": "879071338516578394",
+            "2": "879071364701642813"
+        },
+        "embedMessageId" : "879074720295813170",
+        "serverType": "scp",
+        "inactive": true
+    },
+    "7776":{
+        "token": "ODc5MDcyMDI5MjcyMzIyMDg4.YSKZoA.CsUkuK_WOh25sIi_xDhCwHuxSHY",
+        "channels": {
+            "0": "879071461258694756",
+            "1": "879071502291591228",
+            "2": "879071528761835540"
+        },
+        "embedMessageId" : "879074930107482112",
+        "serverType": "scp",
+        "inactive": true
+    },
+    "7779":{
+        "token": "ODc5MzUxMDMyNzg4OTQyOTM5.YSOddw.kXkrht2GsQDVcuI4hplwgCS5a6U",
+        "channels": {
+            "0": "879351817329311804",
+            "1": "879351843216572496",
+            "2": "879351862111895562"
+        },
+        "embedMessageId" : "879351702522834944",
+        "serverType": "scp",
+        "inactive": true
+    },
+    "25565":{
+        "token": "ODcxODYwMzM1OTk1NDE2NTk2.YQhdNg.OjilnKgQ3QjNJqLDhQv-PlvMy4M",
+        "channels": {
+            "0": "871849783751475250",
+            "1": "871849815036788759"
+        },
+        "embedMessageId" : "871861540226236426",
+        "serverType": "mc",
+        "inactive": false
+    },
+    "25566":{
+        "token": "ODc0NzUzODA0NzQwOTg4OTk4.YRLj9w.OwId1aGwl-6zTSJumK0Ln58RPlI",
+        "channels": {
+            "0": "874756705412608070",
+            "1": "874756749524099123"
+        },
+        "embedMessageId" : "874756278898032740",
+        "serverType": "mc"
+    },
+    "27016":{
+        "token": "NjcwMzY0NTY4MDUyMTcwNzgy.XitTpw.oNeZ9RWQR_NDjATk-496QuzrmsQ",
+        "channels":{
+            "0": "873591655649935371",
+            "1": "873630937433378816",
+            "2": "873591889629179944",
+            "console": "873591947565096960",
+            "chat": "873630937433378816"
+        },
+        "embedMessageId": "873576549218132019",
+        "serverType": "se",
+        "inactive": true
+    },
+    "25576":{
+        "token": "ODkxNjk0MzgwNDA1MTIxMDY1.YVCFGw.g8BbqvzkpYeqoiU1VDirzICajVQ",
+        "channels": {
+            "0": "891697834150207518",
+            "1": "891697862407249941"
+        },
+        "embedMessageId" : "891698385223049306",
+        "serverType": "mc",
+        "ip": "25666"
+    }
+}

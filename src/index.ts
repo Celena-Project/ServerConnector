@@ -1,0 +1,11 @@
+import express from "express";
+import { Discord } from "./discord";
+import { Express } from "./exress";
+import { My } from "./My";
+const app = express();
+const PORT:number = 7001;
+const config: any = require(`../config.json`);
+My.config = config;
+app.listen(PORT, () => console.log(`Успещно запущен сервер на ${PORT} порту`));
+Discord.run();
+Express.run();
