@@ -95,10 +95,12 @@ export class Discord {
                 embeds[embeds.length] = embed;
             }
         }
-        let resolve = await this.client.channels.resolve(My.config.sharedConfig.sharedServersEmbedsChannelId);
+        if(embeds.length > 0){
+            let resolve = await this.client.channels.resolve(My.config.sharedConfig.sharedServersEmbedsChannelId);
         if (resolve.isText()) {
             console.log(`channel found`)
             resolve.messages.fetch(My.config.sharedConfig.bot.messageId).then(x => { x.edit({ embeds }) });
+        }
         }
     }
 
