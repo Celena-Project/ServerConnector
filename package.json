@@ -13,6 +13,9 @@
     "@types/node": "^14.0.13"
   },
   "dependencies": {
-    "discord.js": "^13.2.0"
+    "@types/websocket": "^1.0.4",
+    "discord.js": "^13.2.0",
+    "http": "^0.0.1-security",
+    "websocket": "^1.0.34"
   }
 }

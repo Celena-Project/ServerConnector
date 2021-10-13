@@ -58,7 +58,8 @@
         },
         "embedMessageId" : "871861540226236426",
         "serverType": "mc",
-        "inactive": false
+        "inactive": false,
+        "ipType": "Launcher"
     },
     "25566":{
         "token": "ODc0NzUzODA0NzQwOTg4OTk4.YRLj9w.OwId1aGwl-6zTSJumK0Ln58RPlI",
@@ -67,7 +68,8 @@
             "1": "874756749524099123"
         },
         "embedMessageId" : "874756278898032740",
-        "serverType": "mc"
+        "serverType": "mc",
+        "ipType": "Launcher"
     },
     "27016":{
         "token": "NjcwMzY0NTY4MDUyMTcwNzgy.XitTpw.oNeZ9RWQR_NDjATk-496QuzrmsQ",
@@ -91,5 +93,6 @@
         "embedMessageId" : "891698385223049306",
         "serverType": "mc",
         "ip": "25666"
+        
     }
 }
