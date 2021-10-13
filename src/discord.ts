@@ -5,7 +5,7 @@ export class Discord {
     static run() {
         this.turnObAllBots();
         setInterval(this.updateEmbeds, 5000);
-        setInterval(this.updateEmbeds, 5000);
+        setInterval(this.updateStatus, 5000);
     }
     private static client: Client;
     private static turnObAllBots(): void {
@@ -13,8 +13,8 @@ export class Discord {
         this.client.login(My.config.sharedConfig.bot.token);
         this.client.on(`ready`, () => console.log(this.client.user.tag + " подключился"));
         for (let k in My.config) {
-            if (!isNaN(parseInt(My.config[k])) && My.config[k]?.inactive == false) {
-                let client = new Client({ intents: ["GUILDS", "GUILD_MESSAGES", "GUILD_PRESENCES", "GUILD_WEBHOOKS"] });
+            if (!isNaN(parseInt(k)) && My.config[k]?.inactive == false) {
+                let client = new Client({ intents: ["GUILDS", "GUILD_MESSAGES"] });
                 My.clients[k] = client;
                 client.login(My.config[k].token).then(x =>
                     console.log("Зашёл за " + client.user.tag));
@@ -92,10 +92,10 @@ export class Discord {
                     }
                 }
                 //
-                embeds[embeds.length] = embed;
+                embeds[embeds?.length || 0] = embed;
             }
         }
-        if(embeds.length > 0){
+        if(embeds?.length > 0){
             let resolve = await this.client.channels.resolve(My.config.sharedConfig.sharedServersEmbedsChannelId);
         if (resolve.isText()) {
             console.log(`channel found`)
