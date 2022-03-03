@@ -1,0 +1,31 @@
+{
+	"7777": {
+		"token": "NjcwMzY0NDc2NjY2NTQ0MTU5.XitTkg.ta7PYQyKmEdzLj6EhkORFMSmGo0",
+		"channels": [
+			"942147274853711902"
+		],
+		"serverType": "sl",
+		"inactive": false
+	},
+	"7778": {
+		"token": "NjcwMzY0NDk2ODg3NTQ1ODc3.XitTlg.NIQytxXIdZJLVA7cgz-i-PWUJGE",
+		"channels": [
+			"942147274853711902"
+		],
+		"serverType": "sl",
+		"inactive": false
+	},
+	"sharedConfig": {
+		"sharedServersEmbedsChannelId": "909464428200738898",
+		"bot": {
+			"token": "NjcxNDQ5ODMyNjk0NDgwOTI2.Xi9GYw.MRA9fiJKNVLj-jQp0-iyh09JBBU"
+		},
+		"embeds": [
+			{
+				"guild": "670351103384354826",
+				"channel": "942142629691424851",
+				"message": "9481985051539579081111111111111111111111111"
+			}
+		]
+	}
+}
